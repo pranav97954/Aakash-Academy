@@ -1,0 +1,111 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 5%;
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline;
+    margin: 05px 15px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+ul li a{
+    color: #000;
+}
+.dark ul li a{
+    color: #fff;
+}
+.toogle-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.search-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 20px;
+    max-width: 200px;
+}
+.search-box input::placeholder{
+    color: #fff;
+}
+.search-box img{
+    width: 20px;
+    cursor: pointer;
+}
+.dark .navbar{
+    background-color: #212121;
+    color: white;
+}
+.dark .search-box{
+    background: #fff;
+}
+.dark .search-box input::placeholder{
+    color: #000;
+}
+
+
+/* Responsive */
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dark .sidebar{
+    background-color: black;
+}
+.menu-btn{
+    display: none;
+}
+@media(max-width:800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin-left: 80%;
+    }
+}
+@media(max-width:450px){
+    .sidebar{
+        width: 90%;
+    }
+}
