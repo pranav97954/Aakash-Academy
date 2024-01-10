@@ -6,7 +6,8 @@ import About from './Components/About';
 import Careers from './Components/Careers';
 import Query from './Components/Query';
 import Courses from './Components/Courses';
-//import './App.css'
+import Login from './Components/Login';
+import Footer from './Components/Footer';
 
 const App = () => {
 
@@ -26,8 +27,10 @@ const App = () => {
           <Route path='/career' element={<Careers />} />
           <Route path='/query' element={<Query />} />
           <Route path='/courses' element={<Courses />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   )
 }
