@@ -1,0 +1,134 @@
+.courses{
+    margin: 133px 7%;
+}
+.courses h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.dark .courses h2{
+    color: #fff;
+}
+.courses .language h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.dark .courses .language h1{
+    color: #fff;
+}
+.courses .language .row{
+    margin: 20px;
+}
+.courses .language .row .col{
+    display: flex;
+    flex-direction: row;
+}
+
+.courses .language .row .card4{
+    margin: 3%;
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+}
+.courses .language .row .card4 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+}
+.courses .language .row .card4 .cardbody{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.courses .language .row .card4 .cardbody p{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.courses .language .row .card4 .cardbody h6{
+    font-size: 25px;
+    font-weight: 500;
+}
+.courses .forenlanguage h1{
+    margin: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+.courses .forenlanguage .row .col{
+    display: flex;
+    flex-direction: row;
+}
+.courses .forenlanguage .row .col .card5{
+    width: 22%;
+    margin: 10px;
+    /* padding: 10px; */
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+}
+.courses .forenlanguage .row .col .card5 .ca1{
+  background-color: #fff;
+  color: black;
+}
+.courses .forenlanguage .row .col .card5 .ca2{
+    background-color: #3b436c;
+    color: white;
+  }
+.courses .forenlanguage .row .col .card5 .ca2 a{
+    color: white;
+}
+.courses .forenlanguage .row .col .card5 h3{
+    padding: 10px;
+}
+.dark .courses .forenlanguage .row .col .card5 h3{
+    color: #fff;
+}
+.courses .Training{
+    text-align: center;
+    color: green;
+}
+.dark .courses .Training{
+    padding: 5px;
+    color: #fff;
+}
+.courses .Training .live p{
+    padding: 20px;
+    font-size: x-large;
+    line-height: 2rem;
+}
+.courses .Training .live h4{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.courses .Training .live button{
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 15px 80px;
+    font-size: 26px;
+    font-weight: 600;
+    transition: 0.5s;
+    animation-delay: 1.5s;
+    background-color: rgb(81, 81, 231);
+}
+@media (max-width:700px) {
+    .courses .language .row .col{
+        display: flex;
+        flex-direction: column;
+    }    
+    .courses .language .row .card4{
+        width: 80%;
+    }
+}
+@media (max-width:400px){
+    .courses .forenlanguage .row .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .courses .forenlanguage .row .col .card5{
+        width: 80%;
+    }
+}

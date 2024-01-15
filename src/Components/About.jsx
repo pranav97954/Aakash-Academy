@@ -1,8 +1,39 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import './CSS/about.css'
 import about from '../assets/about.jpg'
 
+// import { useNavigate } from 'react-router-dom'
+// import { useCookies } from 'react-cookie'
+// import axios from 'axios'
+// import { ToastContainer, toast } from 'react-toastify'
+
 const About = () => {
+  // const navigate = useNavigate();
+  // const [cookies,setCookie,removeCookie] = useCookies([]);
+  
+  // useEffect(() =>{
+  //   const verifyUser = async () => {
+  //      if(!cookies.jwt){
+  //       navigate("/login");
+  //      }else{
+  //       const { data } = await axios.post(
+  //         "http://localhost:4000/about",{},
+  //         { withCredentials:true}
+  //       );
+  //       if(!data.status){
+  //         removeCookie("jwt");
+  //         navigate("/login");
+  //       }else toast(`Hi ${data.user}`);
+  //      }
+  //   };
+  //   verifyUser();
+  // },[cookies,navigate,removeCookie]);
+
+  // const logout = () =>{
+  //   removeCookie("jwt");
+  //   navigate("/");
+  // };
+
   return (
     <div className='about'>
       <div className="aboutheading">

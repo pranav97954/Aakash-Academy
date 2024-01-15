@@ -147,3 +147,166 @@
         font-weight: 300; 
     }
 }
+
+.services{
+    background-color: #81b0f1;
+    margin: 0px 7%;
+}
+.dark .services{
+    background-color: #000;
+    color: white;
+}
+.services .cont1 .row .head{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.services .cont1 .row .head h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.services .cont1 .row .head p{
+    font-weight: 800;
+}
+.services .cont1 .row .col{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.services .cont1 .row .col .card{
+    width: 22%;
+    text-align: center;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    min-height: 400px;
+    border-radius: 20px;
+}
+.services .cont1 .row .col .card img{
+    height: 70px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.services .cont1 .row .col .card h5{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.dark .services .cont1 .row .col .card h5{
+    color: #000;
+}
+.services .cont1 .row .col .card p{
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.dark .services .cont1 .row .col .card p{
+    color: #000;
+}
+@media (max-width:991px){
+    .services .cont1 .row .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .services .cont1 .row .col .card{
+       width: 80%;
+    }
+}
+
+/* extraactivity */
+.extraactivity{
+    margin: 0px 7%;
+}
+.extraactivity h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.dark .extraactivity h1{
+    color: white;
+}
+.extraactivity .row .col{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+.extraactivity .row .col .card{
+    height: 250px;
+    width: 25%;
+    border: 2px solid blue;
+    margin: 3%;
+    border-radius: 20px 20px 10px 10px;
+    text-align: center;
+}
+
+.extraactivity .row .col .card img{
+    width: 100%;
+    height: 247px;
+    border-radius: 20px 20px 10px 10px;
+}
+.extraactivity .row .col .card h3{
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: -110px;
+    color: white;
+}
+.extraactivity .row .col .card button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 55px;
+    background-color: rgba(3, 254, 3, 0.533);
+    font-size: larger;
+    border-radius: 15px;
+}
+.extraactivity .row .col .card .special1{
+    margin-top: -155px;
+}
+@media (max-width:900px){
+    .extraactivity .row .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .extraactivity .row .col .card{
+        width: 90%;
+        margin: 30px;
+    }
+    .extraactivity .row .col .card button{
+        margin-top: 0px;
+    }
+}
+
+.extraactivity .row .col .card2{
+    min-height: 450px;
+    width: 25%;
+    margin: 3%;
+    border: 0.3px solid black;
+    border-radius: 20px 20px 0px 0px;
+}
+.extraactivity .row .col .card2 img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 300px;
+}
+.extraactivity .row .col .card2 h3{
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+.extraactivity .row .col .card2 button{
+    padding: 10px 20px 10px 20px;
+    background-color: #198754;
+    font-size: larger;
+    border-radius: 5px;
+    color: white;
+    margin-left: 120px;
+}
+@media (max-width:900px){
+    .extraactivity .row .col .card2{
+
+        width: 100%;
+        margin: 3%;
+        
+    }
+}

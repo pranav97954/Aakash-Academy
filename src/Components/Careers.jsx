@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./CSS/form.css";
 
-const serverURL = "http://localhost:5173/";
+const serverURL = "https://aakashserver.onrender.com";
 
 const Careers = () => {
   const [name, setName] = useState("");
@@ -25,9 +25,8 @@ const Careers = () => {
   };
   return (
     <div className="carrers">
-    <div className="fm">
-      <div className="carrerform">
-        <form className="fm" onSubmit={handleSubmit}>
+      <div className="newform">
+        <form onSubmit={handleSubmit} className="formdiv">
           <h1>Career in Aakash</h1>
           <span>Online & Offline</span>
           <div className="infm">
@@ -65,7 +64,6 @@ const Careers = () => {
           <button>Register</button>
         </form>
       </div>
-    </div>
 
     </div>
   );

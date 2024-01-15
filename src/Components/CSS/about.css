@@ -74,3 +74,18 @@
     font-size: x-large;
     border-radius: 10px;
 }
+
+
+@media(max-width:991px){
+    .about .aboutsection{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .about .aboutsection .left{
+        width: 98%;
+    }
+    .about .aboutsection .right{
+        width: 98%;
+    }
+}
